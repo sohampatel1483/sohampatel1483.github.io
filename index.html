@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soham patel</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/b9c271026f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      body {
+        color: white;
+        background-color: #333333;
+        font-family: "Inter", sans-serif;
+      }
+      main {
+        margin: auto;
+        padding: 40px 0px;
+        width: 98%;
+      }
+      @media (min-width: 900px) {
+        main {
+          max-width: 55%;
+        }
+      }
+      .description {
+        font-weight: normal;
+      }
+
+      .card_container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+      }
+      .education_card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .education_card p {
+        margin: 0;
+      }
+      .education_card h4,
+      .education_card h3 {
+        margin: 0;
+        margin-bottom: 5px;
+      }
+      .education_card_content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 16px;
+      }
+      .education_card_info {
+        display: flex;
+        flex-direction: column;
+      }
+      .education_icon {
+        font-size: 35px;
+      }
+      .achievement_card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .achievement_card_info {
+        display: flex;
+        align-items: center;
+        column-gap: 14px;
+      }
+      .achievement_card_info h3,
+      .achievement_card_info p {
+        margin: 0;
+      }
+
+      .achievement_icon {
+        font-size: 30px;
+      }
+      .animated_link {
+        text-decoration: none;
+        color: inherit;
+        border-bottom: 2px solid transparent;
+        transition: border-color 0.3s ease;
+      }
+      .animated_link:hover {
+        border-bottom: 2px solid currentColor; /* Show the underline on hover */
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      .brand-icons {
+        font-size: 28px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Soham Patel</h1>
+      <h4 class="description">
+        Hi, I am a Full stack Developer and a Competitive Programmer
+      </h4>
+      <div style="display: flex; gap: 10px">
+        <a
+          target="_blank"
+          class="brand-icons"
+          href="https://www.linkedin.com/in/soham-patel-b751ba218/"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a
+          target="_blank"
+          class="brand-icons"
+          href="mailto:sohampatel1483@gmail.com"
+        >
+          <i class="fa-regular fa-envelope"></i>
+        </a>
+        <a
+          target="_blank"
+          class="brand-icons"
+          href="https://github.com/SOHAMPATEL1483"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a
+          target="_blank"
+          class="brand-icons"
+          href="https://x.com/sohampatel1483"
+          ><i class="fa-brands fa-twitter"></i>
+        </a>
+      </div>
+      <h1>Experience</h1>
+      <div class="education_card">
+        <div class="education_card_content">
+          <span class="material-symbols-outlined education_icon"> work </span>
+          <div class="education_card_info">
+            <h3 class="education_card_info_title">
+              SDE Intern @
+              <a
+                class="animated_link"
+                target="_blank"
+                href="https://www.playpowerlabs.com/"
+                >PlaypowerLabs</a
+              >
+            </h3>
+            <p style="font-size: 15px">
+              During my internship, I worked with agile teams using Git, Angular
+              and NestJS
+            </p>
+          </div>
+        </div>
+        <div>Mar'24 - Jul'24</div>
+      </div>
+      <h1>Education</h1>
+      <div class="card_container">
+        <div class="education_card">
+          <div class="education_card_content">
+            <span class="material-symbols-outlined education_icon">
+              school
+            </span>
+            <div class="education_card_info">
+              <h3 class="education_card_info_title">
+                M.Tech Computer Science and Engineering
+              </h3>
+              <p>Indian Institute of Technology, Bombay</p>
+            </div>
+          </div>
+          <div>2024-2026</div>
+        </div>
+        <div class="education_card">
+          <div class="education_card_content">
+            <span class="material-symbols-outlined education_icon">
+              school
+            </span>
+            <div class="education_card_info">
+              <h3 class="education_card_info_title">
+                B.E. Computer Engineering
+              </h3>
+              <p>L.D. College of Engineering</p>
+            </div>
+          </div>
+          <div>2020-2024</div>
+        </div>
+      </div>
+
+      <h1>Achievements</h1>
+      <div class="achievement_card">
+        <div class="achievement_card_info">
+          <span class="material-symbols-outlined achievement_icon"
+            >military_tech</span
+          >
+          <h3>
+            Expert at
+            <a
+              class="animated_link"
+              target="_blank"
+              href="https://codeforces.com/profile/sohampatel148e"
+            >
+              Codeforces
+            </a>
+          </h3>
+        </div>
+        <p>Max.Rating: 1604</p>
+      </div>
+      <div class="achievement_card">
+        <div class="achievement_card_info">
+          <span class="material-symbols-outlined achievement_icon"
+            >military_tech</span
+          >
+          <h3>
+            5 ⭐ at
+            <a
+              class="animated_link"
+              target="_blank"
+              href="https://www.codechef.com/users/sohampatel148e"
+            >
+              Codechef
+            </a>
+          </h3>
+        </div>
+        <p>Max.Rating: 2006</p>
+      </div>
+      <div class="achievement_card">
+        <div class="achievement_card_info">
+          <span class="material-symbols-outlined achievement_icon"
+            >military_tech</span
+          >
+          <h3>
+            Knight at
+            <a
+              class="animated_link"
+              target="_blank"
+              href="https://leetcode.com/u/sohampatel1483/"
+            >
+              Leetcode
+            </a>
+          </h3>
+        </div>
+        <p>Max.Rating: 1959</p>
+      </div>
+      <h1>Projects</h1>
+      <div class="card_container">
+        <div class="education_card">
+          <div class="education_card_content" style="align-items: flex-start">
+            <span class="material-symbols-outlined education_icon"> code </span>
+            <div class="education_card_info">
+              <h3 class="education_card_info_title">LiveIPO</h3>
+              <p style="max-width: 90%">
+                Built an app with React Native to display various IPO
+                information, currently used by 500+ users.
+              </p>
+            </div>
+          </div>
+          <div style="display: flex; gap: 10px">
+            <a
+              target="_blank"
+              style="font-size: 20px"
+              href="https://play.google.com/store/apps/details?id=com.liveipo.liveipo_app&hl=en_IN"
+            >
+              <i class="fa-brands fa-google-play"></i>
+            </a>
+          </div>
+        </div>
+        <div class="education_card">
+          <div class="education_card_content" style="align-items: flex-start">
+            <span class="material-symbols-outlined education_icon"> code </span>
+            <div class="education_card_info">
+              <h3 class="education_card_info_title">
+                Movie Recommendation Website
+              </h3>
+              <p style="max-width: 90%">
+                Developed a responsive site to recommend movies, using SvelteKit
+                and Tailwind for the frontend, Django for the API, and Docker
+                for deployment
+              </p>
+            </div>
+          </div>
+          <div style="display: flex; gap: 10px">
+            <a
+              target="_blank"
+              style="font-size: 20px"
+              href="https://github.com/SOHAMPATEL1483/WatchWizard"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a
+              target="_blank"
+              style="font-size: 20px"
+              href="https://www.youtube.com/watch?v=ro8EflBGpcE"
+            >
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+        <div class="education_card">
+          <div class="education_card_content" style="align-items: flex-start">
+            <span class="material-symbols-outlined education_icon"> code </span>
+            <div class="education_card_info">
+              <h3 class="education_card_info_title">Reddit Clone</h3>
+              <p style="max-width: 90%">
+                Developed a responsive Reddit clone with Next.js and Tailwind,
+                featuring nested comments, infinite scrolling, and a type-safe
+                API
+              </p>
+            </div>
+          </div>
+          <div style="display: flex; gap: 10px">
+            <a
+              target="_blank"
+              style="font-size: 20px"
+              href="https://github.com/SOHAMPATEL1483/Reddit-clone"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a
+              target="_blank"
+              style="font-size: 20px"
+              href="https://youtu.be/GGXpOymLvZQ"
+            >
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <h1>Stack</h1>
+      <img
+        alt="contains icon for js,ts,svelte,react,angular,webpack,nodejs,pnpm,prisma,docker,supabase,firebase,tailwind,postman,nextjs,html,git,python,django,c,cpp"
+        style="max-width: 100%"
+        src="https://skillicons.dev/icons?i=js,ts,svelte,react,angular,webpack,nodejs,pnpm,prisma,docker,supabase,firebase,tailwind,postman,nextjs,html,git,python,django,c,cpp"
+      />
+      <p style="text-align: center">
+        <i class="fa-regular fa-copyright"></i> Soham Patel
+      </p>
+    </main>
+  </body>
+</html>
